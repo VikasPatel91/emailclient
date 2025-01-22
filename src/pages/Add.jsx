@@ -13,7 +13,6 @@ const Add = () => {
 
   const navigate = useNavigate();
 
-  
   const handleChange = (e) => {
     const { name, value, files } = e.target;
 
@@ -30,11 +29,9 @@ const Add = () => {
     }
   };
 
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-  
     if (
       !formData.templateName ||
       !formData.imageUrl ||
@@ -45,7 +42,6 @@ const Add = () => {
       return;
     }
 
-  
     const formDataToSend = new FormData();
     formDataToSend.append("templateName", formData.templateName);
     formDataToSend.append("imageUrl", formData.imageUrl);
@@ -54,7 +50,7 @@ const Add = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3500/upload",
+        "https://emailserver-1-gprw.onrender.com/upload",
         formDataToSend,
         {
           headers: {
@@ -76,7 +72,6 @@ const Add = () => {
     <div className="add-template-container">
       <h2>Add New Template</h2>
       <form className="add-template-form" onSubmit={handleSubmit}>
-       
         <div className="form-group">
           <label htmlFor="templateName">Template Name</label>
           <input
@@ -90,7 +85,6 @@ const Add = () => {
           />
         </div>
 
-        
         <div className="form-group">
           <label htmlFor="imageUrl">Image</label>
           <input
@@ -103,7 +97,6 @@ const Add = () => {
           />
         </div>
 
-       
         <div className="form-group">
           <label htmlFor="logoUrl">Logo</label>
           <input
@@ -116,7 +109,6 @@ const Add = () => {
           />
         </div>
 
-       
         <div className="form-group">
           <label htmlFor="description">Description</label>
           <textarea
@@ -130,7 +122,6 @@ const Add = () => {
           />
         </div>
 
-      
         <button type="submit" className="submit-btn">
           Add Template
         </button>

@@ -21,7 +21,9 @@ const Temp = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:3500/get_template");
+        const res = await axios.get(
+          "https://emailserver-1-gprw.onrender.com//get_template"
+        );
         setData(res.data);
       } catch (error) {
         console.error("Error fetching templates:", error);
