@@ -7,7 +7,7 @@ const Home = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await axios.get("https://emailserver-1-gprw.onrender.com/");
+      const res = await axios.get("https://emailserver-1-gprw.onrender.com/get_template");
       setData(res.data);
     };
     fetchData();
