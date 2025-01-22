@@ -22,7 +22,9 @@ const Temp = () => {
     const fetchData = async () => {
       try {
         const res = await axios.get("https://emailserver-1-gprw.onrender.com/get_template");
-        setData(res.data);
+        
+        console.log(res);
+        
       } catch (error) {
         console.error("Error fetching templates:", error);
       }
