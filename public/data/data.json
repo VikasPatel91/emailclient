@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "name": "welcome",
+        "image": "./image/welcome.jpg",
+        "logo": "./log/logo.svg",
+        "para": "Welcome to our platform! We're excited to have you."
+    },
+    { 
+        "id": 2,
+        "name": "reset-password",
+        "image": "./image/resPass.jpg",
+        "logo": "./log/logo.svg",
+        "para": "Click the link below to reset your password."
+    },
+    {
+        "id": 3,
+        "name": "account-activation",
+        "image": "./image/accAct.jpg",
+        "logo": "./log/logo.svg",
+        "para": "Activate your account by clicking on the link below."
+    },
+    {
+        "id": 4,
+        "name": "order-confirmation",
+        "image": "./image/Confirmation Email_ Best Practices, Examples, and Templates That Work.jpeg",
+        "logo": "./log/logo.svg",
+        "para": "Thank you for your purchase! Your order has been confirmed."
+    },
+    {
+        "id": 5,
+        "name": "shipping-notification",
+        "image": "./image/NRE Account_ 6 Benefits You Need to Know About.jpeg",
+        "logo": "./log/logo.svg",
+        "para": "Your order has shipped and is on its way!"
+    },
+    {
+        "id": 6,
+        "name": "delivery-confirmation",
+        "image": "./image/Payment & Order Confirmation App.jpeg",
+        "logo": "./log/logo.svg",
+        "para": "Your order has been delivered. Enjoy your purchase!"
+    },
+    {
+        "id": 7,
+        "name": "newsletter",
+        "image": "./image/Vintage Retro Newspaper.jpeg",
+        "logo": "./log/logo.svg",
+        "para": "Here's the latest news and updates from us."
+    },
+    {
+        "id": 8,
+        "name": "invoice",
+        "image": "./image/Business Invoice Template PSD, AI, EPS.jpeg",
+        "logo": "./log/logo.svg",
+        "para": "Attached is your invoice for the recent purchase."
+    },
+    {
+        "id": 9,
+        "name": "feedback-request",
+        "image": "./image/NOTIFICATION & SMS.jpeg",
+        "logo": "./log/logo.svg",
+        "para": "We'd love to hear your feedback on your recent experience."
+    },
+    {
+        "id": 10,
+        "name": "subscription-expiry",
+        "image": "./image/I will develop membership website or subscription website on wordpress.jpeg",
+        "logo": "./log/logo.svg",
+        "para": "Your subscription is about to expire. Renew today!"
+    },
+    {
+        "id": 11,
+        "name": "promo-offer",
+        "image": "./image/Special Promo Banner Design For Sale And Offer Vector, Special Promo, Special Promo Banner, Special Promotion Design PNG and Vector with Transparent Background for Free Download.jpeg",
+        "logo": "./log/logo.svg",
+        "para": "Exclusive offer just for you! Grab it before it expires."
+    },
+    {
+        "id": 12,
+        "name": "account-update",
+        "image": "./image/Are you required to update your KYC by March 31 for stock and mutual fund investment_.jpeg",
+        "logo": "./log/logo.svg",
+        "para": "Your account details have been successfully updated."
+    },
+    {
+        "id": 13,
+        "name": "welcome-back",
+        "image": "./image/Welkom terug_ We zijn open teken illustratie _ Premium Vector.jpeg",
+        "logo": "./log/logo.svg",
+        "para": "Welcome back! We're happy to see you again."
+    },
+    {
+        "id": 14,
+        "name": "password-change",
+        "image": "./image/pass.jpg",
+        "logo": "./log/logo.svg",
+        "para": "Your password has been successfully changed."
+    },
+    {
+        "id": 15,
+        "name": "account-suspension",
+        "image": "./image/accSus.jpeg",
+        "logo": "./log/logo.svg",
+        "para": "Your account has been suspended. Please contact support."
+    },
+    {
+        "id": 16,
+        "name": "payment-received",
+        "image": "./image/Payment & Order Confirmation App.jpeg",
+        "logo": "./log/logo.svg",
+        "para": "We’ve received your payment. Thank you for your purchase!"
+    }
+]
